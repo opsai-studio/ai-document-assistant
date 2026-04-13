@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Document Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Document Assistant</h1>
+    <p>Upload a PDF and ask questions about it.</p>
+
+    <div class="upload-area">
+      <input type="file" id="pdf-file" accept=".pdf">
+      <button onclick="uploadPDF()">Upload PDF</button>
+      <p id="upload-status"></p>
+    </div>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+      <textarea id="user-input" placeholder="Ask a question about the uploaded PDF..."></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.upload-area {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.chat-box {
+  min-height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #fafafa;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.user {
+  background: #e8f0fe;
+}
+
+.bot {
+  background: #eef7ea;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+button {
+  width: 140px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#upload-status {
+  margin-top: 10px;
+  font-size: 14px;
+}
