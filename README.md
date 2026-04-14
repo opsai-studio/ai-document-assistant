@@ -27,7 +27,7 @@ This project allows you to upload a PDF and ask questions about it using AI.
 
 
 ## 💬 Want the project files?
-Comment on the YouTube video and I’ll share the repo!
+YouTube: https://youtu.be/tgcl2pNv4JM?si=qyxJKMxLguHT-OME
 
 ---
 
